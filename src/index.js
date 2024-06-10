@@ -12,6 +12,6 @@ root.render(
   <React.StrictMode>
    <Login/>
    {/* <Home/> */}
-   {/* <Details/> */}g
+   {/* <Details/> */}
   </React.StrictMode>
 );
