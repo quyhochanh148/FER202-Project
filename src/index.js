@@ -10,8 +10,8 @@ import Details from './compoment/Detail';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <Login/>
-   {/* <Home/> */}
-   {/* <Details/> */}g
+   {/* <Login/> */}
+   <Home/>
+   {/* <Details/> */}
   </React.StrictMode>
 );
