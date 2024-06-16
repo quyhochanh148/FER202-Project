@@ -4,7 +4,7 @@ import './forgotpass.css';
 
 export default function ForgotPasswordPage() {
     return (
-        <Container className="container">
+        <Container className="container container1">
             <h2>Quên Mật Khẩu</h2>
             <Form>
                 <Form.Group controlId="formBasicEmail" className="form-group">

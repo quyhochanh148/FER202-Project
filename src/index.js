@@ -14,12 +14,12 @@ import ForgotPasswordPage from './compoment/forgotpass';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   {/* <Login/>
+   <Login/>
    <Home/>
-   <Details/> */}
-   {/* <Admin/> */}
-   {/* <Admin1/> */}
-   {/* <ChangePasswordPage/> */}
-   {/* <ForgotPasswordPage/> */}
+   <Details/>
+   <Admin/>
+   <Admin1/>
+   <ChangePasswordPage/>
+   <ForgotPasswordPage/>
   </React.StrictMode>
 );
