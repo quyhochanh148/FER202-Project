@@ -7,6 +7,7 @@ import Home from './compoment/Home';
 import Details from './compoment/Detail';
 import Admin from './compoment/admin';
 import Admin1 from './compoment/admin1';
+import ChangePasswordPage from './compoment/changpass';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,5 +18,6 @@ root.render(
    <Details/> */}
    {/* <Admin/> */}
    {/* <Admin1/> */}
+   {/* <ChangePasswordPage/> */}
   </React.StrictMode>
 );
