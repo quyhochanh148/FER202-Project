@@ -36,12 +36,12 @@ export default function Details() {
               <Image src="./Anh/anh1.png" fluid rounded style={{ width: "100%", height: "auto" }} />
             </Col>
             <Col md={8}>
-              <h2>Hit Man (2024)</h2>
+              <h2 style={{color:"white"}}>Hit Man (2024)</h2>
               <p>He's not a killer, but he can pretend.</p>
               <div className="mb-2">
                 <Badge bg="danger" className="me-2">Romance</Badge>
                 <Badge bg="info" className="me-2">Comedy</Badge>
-                <Badge bg="pink">Crime</Badge>
+                <Badge bg="success" className="me-2">Crime</Badge>
               </div>
               <div className="d-flex align-items-center mb-3">
                 <Badge pill className="rating-circle d-flex justify-content-center align-items-center me-3" bg="success">
@@ -64,7 +64,7 @@ export default function Details() {
         </Container>
       </Row>
       <Row style={{ justifyContent: "center", marginTop: "50px", marginBottom: "50px" }}>
-        <h2 style={{ marginLeft: "250px" }} className="text-white">Top Cast</h2>
+        <h2 style={{ textAlign:"left", marginLeft: "250px" }} className="text-white">Top Cast</h2>
         <Col xs={6} md={2} className="text-center">
           <Image src="./Anh/anh11.png" fluid style={{ borderRadius: "200px", width: "200px", height: "200px" }} />
           <Card.Body>
@@ -124,7 +124,7 @@ export default function Details() {
         <Container>
           <Row>
             <Col md={6}>
-              <h2 style={{ marginLeft: "130px" }} className="text-white">What’s Popular</h2>
+              <h2 style={{ textAlign:"left",marginLeft: "130px" }} className="text-white">What’s Popular</h2>
             </Col>
             <Col md={6} className="custom-align">
               <ToggleButtonGroup type="radio" name="options" defaultValue={1} className="mb-3">
@@ -225,7 +225,7 @@ export default function Details() {
         <Container>
           <Row>
             <Col md={6}>
-              <h2 style={{ marginLeft: "130px" }} className="text-white">Top Rated</h2>
+              <h2 style={{ textAlign:"left", marginLeft: "130px" }} className="text-white">Top Rated</h2>
             </Col>
             <Col md={6} className="custom-align">
               <ToggleButtonGroup type="radio" name="options" defaultValue={1} className="mb-3">
