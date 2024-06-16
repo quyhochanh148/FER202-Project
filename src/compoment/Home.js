@@ -61,7 +61,7 @@ export default function Home() {
                     <Container>
                         <Row>
                             <Col md={6}>
-                                <h2 style={{ marginLeft: "120px" }} className="text-white">Trending</h2>
+                                <h2 style={{textAlign:"left", marginLeft:"130px"}} className="text-white">Trending</h2>
                             </Col>
                             <Col md={6} className="custom-align">
                                 <ToggleButtonGroup type="radio" name="options" defaultValue={1} className="mb-3">
@@ -163,7 +163,7 @@ export default function Home() {
                     <Container>
                     <Row>
                             <Col md={6}>
-                                <h2 style={{ marginLeft: "120px" }} className="text-white">Trending</h2>
+                                <h2 style={{textAlign:"left", marginLeft: "130px" }} className="text-white">Trending</h2>
                             </Col>
                             <Col md={6} className="custom-align">
                                 <ToggleButtonGroup type="radio" name="options" defaultValue={1} className="mb-3">
@@ -265,7 +265,7 @@ export default function Home() {
                     <Container>
                     <Row>
                             <Col md={6}>
-                                <h2 style={{ marginLeft: "120px" }} className="text-white">Trending</h2>
+                                <h2 style={{textAlign:"left", marginLeft: "130px" }} className="text-white">Trending</h2>
                             </Col>
                             <Col md={6} className="custom-align">
                                 <ToggleButtonGroup type="radio" name="options" defaultValue={1} className="mb-3">

@@ -44,18 +44,18 @@ export default function Admin() {
     ];
 
     return (
-        <Container fluid className="admin-container">
-            <Row className="header-row align-items-center">
+        <Container fluid className="admin-container admin-container1">
+            <Row className="header-row header-row1  align-items-center">
     <Col md={3} className="header-col text-center">
-        <h3 className="admin-title">ADMIN</h3>
+        <h3 className="admin-title admin-title1">ADMIN</h3>
     </Col>
-    <Col md={9} className="header-col">
-    <Navbar bg="light" variant="light" className="justify-content-between align-items-center shadow-sm rounded">
+    <Col md={9} className="header-col header-col1">
+    <Navbar bg="light" variant="light" className="justify-content-between align-items-center shadow-sm shadow-sm1 rounded">
         <Form inline>
             <FormControl type="text" placeholder="Tìm kiếm" className="mr-sm-2" />
         </Form>
         <div className="d-flex align-items-center">          
-            <Image src="https://placehold.co/50x50?text=A" className="profile-img" roundedCircle style={{marginLeft:"800px"}} />
+            <Image src="https://placehold.co/50x50?text=A" className="profile-img profile-img1" roundedCircle style={{marginLeft:"800px"}} />
         </div>
     </Navbar>
 </Col>
@@ -63,8 +63,8 @@ export default function Admin() {
 
 </Row>
             <Row>
-                <Col md={3} className="sidebar-col">
-                    <Navbar bg="dark" variant="dark" expand="lg" className="flex-column sidebar">
+                <Col md={3} className="sidebar-col sidebar-col1">
+                    <Navbar bg="dark" variant="dark" expand="lg" className="flex-column sidebar sidebar1">
                         <Container fluid>
                             <Navbar.Toggle aria-controls="basic-navbar-nav" />
                             <Navbar.Collapse id="basic-navbar-nav">
@@ -86,13 +86,13 @@ export default function Admin() {
                         </Container>
                     </Navbar>
                 </Col>
-                <Col md={9} className="content-col">
-                    <div className="button-section d-flex justify-content-between align-items-center my-3">
-                        <Button style={{width:"150px"}} className="shadow-sm create-button">Tạo user</Button>
+                <Col md={9} className="content-col content-col1">
+                    <div className="button-section button-section1 d-flex justify-content-between align-items-center my-3">
+                        <Button style={{width:"150px"}} className="shadow-sm shadow-sm1 create-button create-button1">Tạo user</Button>
                         
                     </div>
 
-                    <Table striped bordered hover className="shadow-sm rounded">
+                    <Table striped bordered hover className="shadow-sm shadow-sm1 rounded">
                         <thead>
                             <tr>
                                 <th>Avatar</th>
@@ -108,10 +108,10 @@ export default function Admin() {
                         </thead>
                         <tbody>
                             {users.map((user, index) => (
-                                <tr key={index} className="table-row">
+                                <tr key={index} className="table-row table-row1">
                                     <td>
-                                        <div className="avatar-circle">
-                                            <span className="initials">{user.avatar}</span>
+                                        <div className="avatar-circle avatar-circle1">
+                                            <span className="initials initials1">{user.avatar}</span>
                                         </div>
                                     </td>
                                     <td>{user.name}</td>
