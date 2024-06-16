@@ -5,7 +5,7 @@ import './changpass.css';
 export default function ChangePasswordPage() {
     return (
         <>
-            <Container fluid className="container">
+            <Container fluid className="container container1">
                 <Row>
                     <Col>
                         <h2>Thay Đổi Mật Khẩu</h2>
