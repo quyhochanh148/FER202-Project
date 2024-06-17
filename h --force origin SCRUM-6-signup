@@ -1,0 +1,59 @@
+[33mcommit 27c9651378bcc64fa3e38fd61e9c50b81c4b6264[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mSCRUM-6-signup[m[33m, [m[1;31morigin/SCRUM-6-signup[m[33m)[m
+Author: dthai24 <ThaiCDHE182470@fpt.edu.vn>
+Date:   Mon Jun 17 13:05:11 2024 +0700
+
+    Update signup.js
+
+[33mcommit 9c43bc3f3578920f72475d38c676f09917612d77[m
+Author: capduythai12 <capduythai12@gmail.com>
+Date:   Mon Jun 17 12:42:45 2024 +0700
+
+    Cập nhật Home.js và index.js, thêm signup.js cho nhánh SCRUM-6-signup
+
+[33mcommit c562e99c320d7e66786822ff4054a30280642155[m
+Merge: 7f94f41 0800f94
+Author: quyhochanh148 <161292565+quyhochanh148@users.noreply.github.com>
+Date:   Mon Jun 10 22:01:03 2024 +0700
+
+    Merge pull request #2 from quyhochanh148/SCRUM-11-home-detail-login
+    
+    Scrum 11 home detail login
+
+[33mcommit 0800f94789c5cea683fb60a7595ee56218964117[m[33m ([m[1;31morigin/SCRUM-11-home-detail-login[m[33m)[m
+Author: quyhochanh148 <quytthe173122@fpt.edu.vn>
+Date:   Mon Jun 10 21:57:43 2024 +0700
+
+    SCRUM-11 home-details-login
+
+[33mcommit 24cd6506889de5b5447d095b552e225d44bd1f81[m
+Author: quyhochanh148 <quytthe173122@fpt.edu.vn>
+Date:   Mon Jun 10 21:48:27 2024 +0700
+
+    SCRUM-11 home,login,details
+
+[33mcommit 7f94f41d66d64431b2931ff6acd25fb38861511d[m
+Merge: 2cc597d bf93692
+Author: quyhochanh148 <161292565+quyhochanh148@users.noreply.github.com>
+Date:   Mon Jun 10 20:42:20 2024 +0700
+
+    Merge pull request #1 from quyhochanh148/SCRUM-3-home
+    
+    Home
+
+[33mcommit bf93692c938629a088713088e51f509c6a3346e4[m[33m ([m[1;31morigin/SCRUM-3-home[m[33m)[m
+Author: quyhochanh148 <quytthe173122@fpt.edu.vn>
+Date:   Mon Jun 10 20:39:41 2024 +0700
+
+    Home
+
+[33mcommit 2cc597d2d846b7cfc7a139af150b93cd3c5bceb9[m
+Author: quyhochanh148 <quytthe173122@fpt.edu.vn>
+Date:   Fri Jun 7 20:13:01 2024 +0700
+
+    first commit
+
+[33mcommit f2ccd2d452c1dd263b142a7a61365995a62b29cd[m
+Author: quyhochanh148 <161292565+quyhochanh148@users.noreply.github.com>
+Date:   Fri Jun 7 20:08:22 2024 +0700
+
+    Initial commit

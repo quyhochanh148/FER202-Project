@@ -12,8 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <SignUp/>
-   <Login/> 
-   <Home/>
-   <Details/> 
+   {/* <Login/>  */}
+   {/* <Home/> */}
+   {/* <Details/>  */}
   </React.StrictMode>
 );
