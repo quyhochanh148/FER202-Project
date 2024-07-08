@@ -10,7 +10,7 @@ export default function Login() {
         <Col md={6} className="form-column">
           <Row>
             <div className="form-wrapper">
-              <h2>Login</h2>
+              <h2 style={{color:"white"}}>Login</h2>
               <Form>
                 <div>Email</div>
                 <Form.Group controlId="formBasicEmail">
