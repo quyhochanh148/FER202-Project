@@ -14,6 +14,9 @@ import Search from './compoment/Search';
 import SignUp from './compoment/signup';
 import DetailUser from './compoment/detailsadmin';
 import UpdateUser from './compoment/updatea';
+import DetailMovie from './compoment/admin2';
+import AddMovie from './compoment/addfilm';
+import UpdateMovie from './compoment/updatefilm';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,7 +33,13 @@ root.render(
    <Watching/>
    <Search/>
    <DetailUser/>
+   <DetailMovie/>
+   <AddMovie/>
    <UpdateUser/>
+
+
+
    
+
   </React.StrictMode>
 );
