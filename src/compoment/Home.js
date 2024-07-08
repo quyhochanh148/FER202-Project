@@ -1,5 +1,6 @@
-import { Container, Row, Form, Button, FormControl, Navbar, Nav, Col, Card, Image, Carousel, ToggleButton, ToggleButtonGroup, Badge } from "react-bootstrap";
+import { Container, Row, Form, Button, FormControl, Navbar, Nav, NavDropdown, Col, Card, Image, Carousel, ToggleButton, ToggleButtonGroup, Badge } from "react-bootstrap";
 import './Home.css';
+
 export default function Home() {
     return (
         <div className="App">
@@ -12,8 +13,27 @@ export default function Home() {
                         <Nav className="me-auto">
                             <Nav.Link href="#Phim Lẻ">Phim Lẻ</Nav.Link>
                             <Nav.Link href="#Phim Bộ">Phim Bộ</Nav.Link>
-                            <Nav.Link href="#Thể loại">Thể loại</Nav.Link>
-                            <Nav.Link href="#Quốc Gia">Quốc Gia</Nav.Link>
+                            <NavDropdown title="Thể loại" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action/1">Thần thoại</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/2">Chiến tranh</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3">Viễn Tưởng</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/1">Cổ Trang</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/2">Học Đường</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3">Bí Ẩn</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/1">Phiêu Lưu</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/2">Hài Hước</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/3">Tâm lý</NavDropdown.Item>
+                               
+                            </NavDropdown>
+                            <NavDropdown title="Quốc Gia" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#action/4">Việt Nam</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/5">Nhật Bản</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/6">Mỹ</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/4">Hàn Quốc</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/5">Trung Quốc</NavDropdown.Item>
+                                <NavDropdown.Item href="#action/6">Ấn Độ</NavDropdown.Item>
+
+                            </NavDropdown>
                             <Nav.Link href="#Login">Login</Nav.Link>
                         </Nav>
                         <Form className="d-flex">
