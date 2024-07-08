@@ -69,13 +69,13 @@ export default function Admin1() {
                                         <NavDropdown.Item href="#action1">Danh sách phim</NavDropdown.Item>
                                         <NavDropdown.Item href="#action2">Thêm phim</NavDropdown.Item>
                                         <NavDropdown.Item href="#action3">Sửa phim</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action4">Xóa phim</NavDropdown.Item>
+                                        
                                     </NavDropdown>
                                     <NavDropdown title="Quản lý user" id="nav-dropdown-p2" style={{fontSize:"25px"}}>
                                         <NavDropdown.Item href="#action5">Danh sách user</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action6">Tạo user</NavDropdown.Item>
+                                        
                                         <NavDropdown.Item href="#action7">Sửa user</NavDropdown.Item>
-                                        <NavDropdown.Item href="#action8">Xóa user</NavDropdown.Item>
+                                        
                                     </NavDropdown>
                                 </Nav>
                             </Navbar.Collapse>
@@ -84,7 +84,7 @@ export default function Admin1() {
                 </Col>
                 <Col md={9} className="content-col content-col1">
                     <div className="button-section button-section1 d-flex justify-content-between align-items-center my-3">
-                        <Button style={{width:"150px"}} className="shadow-sm shadow-sm1 create-button create-button1">Tạo user</Button>
+                        <Button style={{width:"150px"}} className="shadow-sm shadow-sm1 create-button create-button1">Add movie</Button>
                         
                     </div>
 
