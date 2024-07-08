@@ -36,6 +36,10 @@ root.render(
    <DetailMovie/>
    <AddMovie/>
    <UpdateUser/>
-   <UpdateMovie/>
+
+
+
+   
+
   </React.StrictMode>
 );
