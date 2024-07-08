@@ -31,5 +31,6 @@ root.render(
    <Search/>
    <DetailUser/>
    <UpdateUser/>
+   
   </React.StrictMode>
 );

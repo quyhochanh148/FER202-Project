@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row, Navbar, Nav, FormControl, Button, Image, NavDropdown, Table, Form, Card } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Admin.css'; // Custom CSS for styling
+import './Admin.css';
 
 export default function DetailMovie() {
     const movie = {
